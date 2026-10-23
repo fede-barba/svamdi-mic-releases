@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0f766e">
+  <title>Svamdi Mic - installa l'app sul telefono</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 20px 48px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      color: #1f2937;
+      background: #f7f7f4;
+    }
+    main { max-width: 36rem; margin: 0 auto; }
+    header { margin-bottom: 24px; }
+    .marchio {
+      display: inline-grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: #0f766e;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    h1 { margin: 12px 0 4px; font-size: 1.6rem; line-height: 1.2; }
+    .sottotitolo { margin: 0; color: #475569; }
+    .scarica {
+      display: block;
+      margin: 24px 0 8px;
+      padding: 16px 20px;
+      border-radius: 12px;
+      background: #0f766e;
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.05rem;
+      text-decoration: none;
+      box-shadow: 0 10px 24px rgba(15, 118, 110, 0.24);
+    }
+    .scarica:active { transform: translateY(1px); }
+    .dettagli {
+      margin: 0 0 28px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #64748b;
+      word-break: break-all;
+    }
+    section {
+      margin: 0 0 20px;
+      padding: 18px 20px;
+      border: 1px solid rgba(15, 118, 110, 0.18);
+      border-radius: 12px;
+      background: #fff;
+    }
+    h2 { margin: 0 0 10px; font-size: 1rem; color: #0f766e; }
+    ol { margin: 0; padding-left: 1.2rem; }
+    ol li { margin-bottom: 8px; }
+    .nota { margin: 0; font-size: 0.85rem; color: #475569; }
+    code {
+      padding: 1px 5px;
+      border-radius: 4px;
+      background: #f1f5f9;
+      font-size: 0.78rem;
+    }
+    footer { margin-top: 28px; text-align: center; font-size: 0.78rem; color: #64748b; }
+    strong { color: #0f172a; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="marchio">SM</div>
+      <h1>Svamdi Mic</h1>
+      <p class="sottotitolo">
+        L'app Android che trasforma il telefono in un microfono per SVAMDI: tieni
+        premuto, parla e il campo sul computer si compila.
+      </p>
+    </header>
+
+    <a class="scarica" href="https://github.com/fede-barba/svamdi-mic-releases/releases/latest/download/svamdi-mic.apk">
+      Scarica l'APK
+    </a>
+    <p class="dettagli">
+      Versione 0.1.0 (build 1) &middot; circa 59 MB<br>
+      SHA-256: <code>e98f717b4227d63b1ce02217e2841c4aeb329b9ac2ef8a8a8c0db3cd0a6de597</code>
+    </p>
+
+    <section>
+      <h2>Come si installa</h2>
+      <ol>
+        <li>Apri questa pagina <strong>dal telefono</strong> e tocca <strong>Scarica l'APK</strong>.</li>
+        <li>
+          Se Chrome avvisa che il file pu&ograve; danneggiare il dispositivo, tocca
+          <strong>Scarica comunque</strong>: &egrave; un avviso standard per tutti gli APK
+          fuori dal Play Store.
+        </li>
+        <li>Apri il file scaricato (o la notifica del download).</li>
+        <li>
+          Se Android chiede di consentire l'installazione da Chrome (o dal browser che
+          stai usando), attiva il permesso e torna indietro.
+        </li>
+        <li>
+          Tocca <strong>Installa</strong>. Se Play Protect dice &laquo;app non
+          riconosciuta&raquo;, scegli <strong>Installa comunque</strong>.
+        </li>
+        <li>
+          Apri <strong>Svamdi Mic</strong> e inquadra il QR &laquo;Collega il
+          telefono&raquo; che trovi sul computer, nel pannello <strong>Compila</strong>.
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Prima di installare</h2>
+      <p class="nota">
+        Serve <strong>Android 7 o successivo</strong>. L'app chiede due permessi:
+        <strong>fotocamera</strong> (per inquadrare il QR) e <strong>microfono</strong>.
+        L'audio viene trascritto in locale sul computer: nessun dato lascia la rete.
+      </p>
+    </section>
+
+    <section>
+      <h2>Installazione e collegamento</h2>
+      <p class="nota">
+        Il download funziona da <strong>qualsiasi rete</strong>. Per usare l'app, invece,
+        telefono e computer devono essere sulla <strong>stessa rete Wi-Fi</strong>: parlano
+        direttamente tra loro, senza server in mezzo.
+      </p>
+    </section>
+
+    <footer>
+      Aggiornamenti: scarica di nuovo l'APK da questa pagina. Android lo installa sopra la
+      versione precedente, senza perdere i dati.
+    </footer>
+  </main>
+</body>
+</html>
