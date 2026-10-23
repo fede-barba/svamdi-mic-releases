@@ -4,7 +4,7 @@ Repository pubblico **solo per la distribuzione** dell'app Android Svamdi Mic.
 Il codice sorgente non è qui.
 
 - Pagina di installazione: https://fede-barba.github.io/svamdi-mic-releases/
-- Ultima versione: 0.1.0 (build 1)
+- Ultima versione: 0.2.0 (build 2)
 - APK: `svamdi-mic.apk` (asset dell'ultima release)
 
 L'APK è firmato con la chiave release di SVAMDI: ogni aggiornamento si
